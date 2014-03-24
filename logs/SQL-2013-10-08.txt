@@ -1,0 +1,93 @@
+
+-----------SQL Error::2013-10-08 02:05:50-------------------------------------
+<Exception>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Exception>
+<SQL_Error>Unknown column 'guests.PrimaryContactNumber' in 'field list'</SQL_Error>
+	<BackTraceDumpStart>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</File>
+	<Function>ThrowDBException</Function>
+	<Line>326</Line>
+	<Arg_0>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Arg_0>
+	<Arg_1>Unknown column 'guests.PrimaryContactNumber' in 'field list'</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Select</Function>
+	<Line>358</Line>
+	<Arg_0>SELECT advancebookings.ABID AS ABID, advancebookings.BookingMethod AS BookingMethod, advancebookings.UserID AS UserID, advancebookings.Status AS Status, advancebookings.OnDateTime AS BookedOn, advancebookings.ForDateTime AS BookedFor, advancebookings.ExpectedDuration AS ExpectedDuration, advancebookings.GuestNum AS GuestNum, advancebookings.GuestUID AS GuestUID, advancebookings.Notes AS Notes, guests.PrimaryContactNumber AS GuestPrimaryContactNumber, guests.Name AS GuestName, guests.Email AS GuestEmail, guests.AlternateContactNumber AS GuestAlternateContactNumber, guests.Comment AS GuestComment FROM advancebookings WHERE advancebookings.HRID='MS1' AND advancebookings.ForDateTime BETWEEN '2013-10-07 00:00:00' AND '2013-10-16 23:59:59' AND ( advancebookings.Status=2666) ORDER BY advancebookings.ABID</Arg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Get_AdvanceBookings_BetweenDate</Function>
+	<Line>203</Line>
+	<Arg_0>2013-10-07</Arg_0>
+	<Arg_1>2013-10-16</Arg_1>
+	<Arg_2>555</Arg_2>
+	<ArrArg_3></ArrArg_3>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\AdvanceBooking_Controller.Class.php</File>
+	<Function>Get_UserCancelledAB_BetweenDate</Function>
+	<Line>77</Line>
+	<Arg_0>2013-10-07</Arg_0>
+	<Arg_1>2013-10-16</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php</File>
+	<Function>GetAB_UserCancelled_BetweenDateAction</Function>
+	<Line>81</Line>
+	</BackTraceDumpEnd>
+----------------------------------------------------------------------------------------
+
+-----------SQL Error::2013-10-08 02:11:48-------------------------------------
+<Exception>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Exception>
+<SQL_Error>Unknown column 'guests.PrimaryContactNumber' in 'field list'</SQL_Error>
+	<BackTraceDumpStart>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</File>
+	<Function>ThrowDBException</Function>
+	<Line>326</Line>
+	<Arg_0>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Arg_0>
+	<Arg_1>Unknown column 'guests.PrimaryContactNumber' in 'field list'</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Select</Function>
+	<Line>358</Line>
+	<Arg_0>SELECT advancebookings.ABID AS ABID, advancebookings.BookingMethod AS BookingMethod, advancebookings.UserID AS UserID, advancebookings.Status AS Status, advancebookings.OnDateTime AS BookedOn, advancebookings.ForDateTime AS BookedFor, advancebookings.ExpectedDuration AS ExpectedDuration, advancebookings.GuestNum AS GuestNum, advancebookings.GuestUID AS GuestUID, advancebookings.Notes AS Notes, guests.PrimaryContactNumber AS GuestPrimaryContactNumber, guests.Name AS GuestName, guests.Email AS GuestEmail, guests.AlternateContactNumber AS GuestAlternateContactNumber, guests.Comment AS GuestComment FROM advancebookings WHERE advancebookings.HRID='MS1' AND advancebookings.ForDateTime BETWEEN '2013-10-07 00:00:00' AND '2013-10-16 23:59:59' AND ( advancebookings.Status=2777 OR advancebookings.Status=2888) ORDER BY advancebookings.ABID</Arg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Get_AdvanceBookings_BetweenDate</Function>
+	<Line>210</Line>
+	<Arg_0>2013-10-07</Arg_0>
+	<Arg_1>2013-10-16</Arg_1>
+	<Arg_2>666</Arg_2>
+	<ArrArg_3></ArrArg_3>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\AdvanceBooking_Controller.Class.php</File>
+	<Function>Get_NoShow_AB_BetweenDate</Function>
+	<Line>87</Line>
+	<Arg_0>2013-10-07</Arg_0>
+	<Arg_1>2013-10-16</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php</File>
+	<Function>GetAB_NoShow_BetweenDateAction</Function>
+	<Line>81</Line>
+	</BackTraceDumpEnd>
+----------------------------------------------------------------------------------------
+
+-----------SQL Error::2013-10-08 02:12:28-------------------------------------
+<Exception>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Exception>
+<SQL_Error>Unknown column 'guests.PrimaryContactNumber' in 'field list'</SQL_Error>
+	<BackTraceDumpStart>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</File>
+	<Function>ThrowDBException</Function>
+	<Line>326</Line>
+	<Arg_0>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Arg_0>
+	<Arg_1>Unknown column 'guests.PrimaryContactNumber' in 'field list'</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Select</Function>
+	<Line>358</Line>
+	<Arg_0>SELECT advancebookings.ABID AS ABID, advancebookings.BookingMethod AS BookingMethod, advancebookings.UserID AS UserID, advancebookings.Status AS Status, advancebookings.OnDateTime AS BookedOn, advancebookings.ForDateTime AS BookedFor, advancebookings.ExpectedDuration AS ExpectedDuration, advancebookings.GuestNum AS GuestNum, advancebookings.GuestUID AS GuestUID, advancebookings.Notes AS Notes, guests.PrimaryContactNumber AS GuestPrimaryContactNumber, guests.Name AS GuestName, guests.Email AS GuestEmail, guests.AlternateContactNumber AS GuestAlternateContactNumber, guests.Comment AS GuestComment FROM advancebookings WHERE advancebookings.HRID='MS1' AND advancebookings.ForDateTime BETWEEN '2013-10-07 00:00:00' AND '2013-10-16 23:59:59' AND ( advancebookings.Status=2666) ORDER BY advancebookings.ABID</Arg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Get_AdvanceBookings_BetweenDate</Function>
+	<Line>203</Line>
+	<Arg_0>2013-10-07</Arg_0>
+	<Arg_1>2013-10-16</Arg_1>
+	<Arg_2>555</Arg_2>
+	<ArrArg_3></ArrArg_3>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\AdvanceBooking_Controller.Class.php</File>
+	<Function>Get_UserCancelledAB_BetweenDate</Function>
+	<Line>77</Line>
+	<Arg_0>2013-10-07</Arg_0>
+	<Arg_1>2013-10-16</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php</File>
+	<Function>GetAB_UserCancelled_BetweenDateAction</Function>
+	<Line>81</Line>
+	</BackTraceDumpEnd>
+----------------------------------------------------------------------------------------

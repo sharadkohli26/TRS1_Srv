@@ -1,0 +1,9 @@
+<ErrorEntry>
+	<datetime>2013-09-24 01:50:37 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: GUID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php</scriptname>
+	<scriptlinenum>275</scriptlinenum>
+</ErrorEntry>
+

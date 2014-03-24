@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border="1">
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			FromDate*:<input type="text" name="FromDate" value="2013-08-15"><br>
+			ToDate*:<input type="text" name="ToDate" value="2013-08-17"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetAB_Tentative_BetweenDate">
+			<input type="submit" value="GetAdvanceBookings_Tentative"> 
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			FromDate*:<input type="text" name="FromDate" value="2013-08-15"><br>
+			ToDate*:<input type="text" name="ToDate" value="2013-08-17"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetAB_UserCancelled_BetweenDate">
+			<input type="submit" value="GetAdvanceBookings_CancelledByUser"> 
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			FromDate*:<input type="text" name="FromDate" value="2013-08-15"><br>
+			ToDate*:<input type="text" name="ToDate" value="2013-08-17"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetAB_NoShow_BetweenDate">
+			<input type="submit" value="GetAdvanceBookings_ClientNoShow"> 
+			</form> 
+		</td>				
+		<td>
+			<form name="input" action="./test.php" method="post">
+				Not Ready Yet<br>
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			FromDate*:<input type="text" name="FromDate" value="2013-08-15"><br>
+			ToDate*:<input type="text" name="ToDate" value="2013-08-17"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetAB_ConvertedCurrent_BetweenDate">
+			<input type="submit" value="GetAdvanceBookings_ConvertedCurrent"> 
+			</form> 
+		</td>							
+	</tr>
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			FromDate*:<input type="text" name="FromDate" value="2013-08-15"><br>
+			ToDate*:<input type="text" name="ToDate" value="2013-08-17"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetAB_AllFailed_BetweenDate">
+			<input type="submit" value="GetAdvanceBookings_AllFailed"> 
+			</form> 
+		</td>			
+
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			FromDate*:<input type="text" name="FromDate" value="2013-08-15"><br>
+			ToDate*:<input type="text" name="ToDate" value="2013-08-17"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetAB_All_BetweenDate">
+			<input type="submit" value="GetAdvanceBookings_All"> 
+			</form> 
+		</td>		
+		
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			ABID*:<input type="text" name="ABID"><br>
+			<br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetDetails_ForABID">
+			<input type="submit" value="GetDetails_ForABID"> 
+			</form> 
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			ForDateTime*:<input type="text" name="ForDateTime" value="2013-08-15 18:30"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="TablesAvailabilityFor">
+			<input type="submit" value="TableAvailability_ForAdvanceBooking"> 
+			</form> 
+		</td>			
+	</tr>
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			FromDate*:<input type="text" name="FromDate" value="2013-08-15"><br>
+			ToDate*:<input type="text" name="ToDate" value="2013-08-17"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="GetAB_Confirmed_BetweenDate">
+			<input type="submit" value="GetAB_Confirmed"> 
+			</form> 
+		</td>			
+	</tr>
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*:<input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			ForDateTime*:<input type="text" name="ForDateTime" value="2013-08-15 18:30"><br>
+			BookingMethod:<select name="BookingMethod">
+  				<option value="Call">Guest Called</option>
+  				<option value="TRS Online">TRS Online</option>
+  				<option value="In Person">In Person</option>
+  				<option value="Own Online">Restaurants Website</option>
+  				<option value="Thirdparty">Other Online Services</option>
+  				<option value="Unkown">Unknown</option>
+				</select>
+			<br>			
+			Status:<select name="Status">
+  				<option value="Approved">Approved</option>
+  				<option value="Confirmed">Guest Confirmed</option>
+				</select>
+			<br>					
+			ExpectedDuration*:  <input type="text" name="ExpD" value="30"><br>
+			Number of Guests*:  <input type="text" name="GuestNum" value="5"><br>
+			GuestName:  <input type="text" name="GuestName" value=""><br>
+			GuestContact:  <input type="text" name="GuestContact" value=""><br>
+			GuestEmail:<input type="text" name="GuestEmail" value=""><br>
+			<!-- <input type="text" name="GuestComment" value=""><br>-->
+			Notes:<textarea class="FormElement" name="Notes" id="comment" cols="10" rows="2"></textarea><br>  
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="NewAdvanceBooking"> 
+			<input type="submit" value="Submit">
+			</form> 	
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			ABID*: <input type="text" name="ABID"><br>
+			Status:<select name="Status">
+  				<option value="Approved">Approved</option>
+  				<option value="Confirmed">Guest Confirmed</option>
+  				<option value="Not Confirmed">Unable to Confirm From Guest</option>
+  				<option value="User Cancelled">Guest Has Cancelled</option>
+  				<option value="No Show">Guest requested and did not show up</option>
+  				<option value="Served">Serving</option>
+				</select>
+			<br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="UpdateStatusAB">
+			<input type="submit" value="UpdateStatus_ForAB"> 
+			</form> 
+		</td>		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			ABID*: <input type="text" name="ABID" value=""><br>
+			RoomName*: <input type="text" name="RoomName" placeholder="Room1"><br>
+			TBNames*: <input type="text" name="TBIDs" placeholder="Table1,Table2"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="AssignTableToAB">
+			<input type="submit" value="AssignTableToAB"> 
+			</form> 
+		</td>		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			ABID*: <input type="text" name="ABID" value=""><br>
+			RoomName*: <input type="text" name="RoomName" placeholder="Room1"><br>
+			TBNames*: <input type="text" name="TBIDs" placeholder="Table1,Table2"><br>
+			<input type="hidden" name="controller" value="AdvanceBooking">
+			<input type="hidden" name="action" value="RemoveTableFromAB">
+			<input type="submit" value="RemoveTableFromAB"> 
+			</form> 
+		</td>				
+		
+	</tr>
+</table> 
+
+<br>
+
+
+</body>
+</html>

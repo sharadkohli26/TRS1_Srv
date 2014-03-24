@@ -1,0 +1,36 @@
+CREATE TABLE `trs1`.`advancebookings` (
+`HRID` VARCHAR( 200 ) NOT NULL ,
+`ABID` BIGINT NOT NULL ,
+`ABbyUser` VARCHAR( 200 ) NOT NULL ,
+`ABActionUser` VARCHAR( 200 ) NOT NULL ,
+`ABStatus` INT NOT NULL ,
+`ABTableStatus` INT NOT NULL ,
+`ABonDateTime` DATETIME NOT NULL ,
+`ABforDateTime` DATETIME NOT NULL ,
+`GuestNum` INT NULL ,
+`GuestNames` VARCHAR( 200 ) NULL ,
+`GuestContactNos` VARCHAR( 200 ) NULL ,
+`GuestEmail` VARCHAR( 200 ) NULL ,
+`GuestComment` INT NULL ,
+PRIMARY KEY ( `HRID` , `ABID` )
+) ENGINE = InnoDB ;
+
+ALTER TABLE `advancebookings` CHANGE `ABbyUser` `BookingMethod` VARCHAR( 200 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ,
+CHANGE `ABActionUser` `UserID` VARCHAR( 200 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL
+
+ALTER TABLE `advancebookings` CHANGE `ABStatus` `Status` INT( 11 ) NOT NULL ,
+CHANGE `ABTableStatus` `TableStatus` INT( 11 ) NOT NULL ,
+CHANGE `ABonDateTime` `OnDateTime` DATETIME NOT NULL ,
+CHANGE `ABforDateTime` `ForDateTime` DATETIME NOT NULL 
+
+ALTER TABLE `advancebookings` ADD `ExpectedDuration` INT NOT NULL AFTER `ForDateTime`
+ALTER TABLE `advancebookings` DROP `TableStatus`
+
+ALTER TABLE `advancebookings` DROP `GuestNames` ,
+DROP `GuestContactNos` ,
+DROP `GuestEmail` ,
+DROP `GuestComment` ;
+ 
+ALTER TABLE `advancebookings` ADD `GuestUID` INT NULL DEFAULT NULL AFTER `GuestNum` ;
+ALTER TABLE `advancebookings` ADD `Notes` TEXT NULL AFTER `GuestUID` ;
+ 

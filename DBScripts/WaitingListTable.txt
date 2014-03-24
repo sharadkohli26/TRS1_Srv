@@ -1,0 +1,27 @@
+CREATE TABLE `trs1`.`waitinglist` (
+`HRID` VARCHAR( 200 ) NOT NULL ,
+`UserID` VARCHAR( 200 ) NOT NULL ,
+`WaitID` BIGINT NOT NULL ,
+`Status` INT NOT NULL ,
+`StartTime` DATETIME NOT NULL ,
+`EndTime` DATETIME NOT NULL ,
+`GuestNum` INT NOT NULL ,
+`GuestNames` VARCHAR( 200 ) NULL ,
+`GuestContactNos` VARCHAR( 200 ) NULL ,
+`GuestEmail` VARCHAR( 200 ) NULL ,
+`Comment` VARCHAR( 200 ) NULL ,
+`AdvanceID` BIGINT NULL ,
+PRIMARY KEY ( `WaitID` )
+) ENGINE = InnoDB;
+
+ALTER TABLE `waitinglist` ADD `ExpectedDuration` INT NOT NULL COMMENT 'in minutes' AFTER `EndTime` ;
+
+ALTER TABLE `waitinglist` DROP `GuestNames` ,
+DROP `GuestContactNos` ,
+DROP `GuestEmail` ,
+DROP `Comment` ;
+
+ALTER TABLE `waitinglist` ADD `GuestUID` INT NULL DEFAULT NULL AFTER `GuestNum` ;
+ALTER TABLE `waitinglist` ADD `Notes` TEXT NULL AFTER `GuestNum` ;
+ 
+

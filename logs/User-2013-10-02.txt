@@ -1,0 +1,4 @@
+
+-----------User Error::2013-10-02 15:10:07-------------------------------------
+Exception_InvalidTableID::Supplied TBID(s) not available in the list, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::SetTBID|Line::685|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::InsertCurrentBooking|Line::58|Arg_0::|Arg_1::45|Arg_2::|Arg_3::3|Arg_4::Mohit Sharma|Arg_5::1234567890|Arg_6::|Arg_7::|Arg_8::|Arg_9::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::80::BackTraceDumpEnd
+----------------------------------------------------------------------------------------

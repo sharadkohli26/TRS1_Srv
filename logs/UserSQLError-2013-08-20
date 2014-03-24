@@ -1,0 +1,4 @@
+
+-----------User Error::2013-08-20 02:30:37-------------------------------------
+Exception_InvalidTableID::Supplied TBID(s) not available in the list, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php|Function::GetTBIDArray|Line::303|Arg_0::Table-1,Table4|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\AdvanceBooking_Controller.Class.php|Function::AssignTableToAB|Line::132|Arg_0::1376946024|Arg_1::Table-1,Table4|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::AssignTableToABAction|Line::68::BackTraceDumpEnd
+----------------------------------------------------------------------------------------

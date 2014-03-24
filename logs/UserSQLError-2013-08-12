@@ -1,0 +1,28 @@
+
+-----------User Error::2013-08-12 00:19:27-------------------------------------
+Exception_CBERR168::Wrong UserID, action failed|ExtraInfo_HRID::|ExtraInfo_UserID::|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::SetUserID|Line::132|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::CloseAllCurrentAction|Line::61::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-12 01:02:50-------------------------------------
+Exception_CBERR188::Invalid booking id, action failed|ExtraInfo_HRID::MS123|ExtraInfo_UserID::SK111|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::SetCBID|Line::172|Arg_0::sdfdsf|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::GetAllDetails_ForCBID|Line::235|Arg_0::sdfdsf|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::GetDetails_ForCBIDAction|Line::61::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-12 01:03:23-------------------------------------
+Exception_CBERR188::Invalid booking id, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::SetCBID|Line::588|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::CloseCurrentBooking|Line::96|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::CloseCurrentBookingAction|Line::61::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-12 01:05:29-------------------------------------
+Exception_DBERR343::Table currently occupied, reservation failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::AddCBTable|Line::245|Arg_0::1376249656|Arg_1::Table-3|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::AddCBTableAction|Line::61::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-12 01:06:50-------------------------------------
+Exception_DBERR333::Supplied TBID(s) not available, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::SetTBID|Line::644|Arg_0::Table1|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::CloseCBTable|Line::116|Arg_0::1376249792|Arg_1::Table1|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::CloseCBTableAction|Line::61::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-12 01:06:57-------------------------------------
+Exception_DBERR333::Supplied TBID(s) not available, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::SetTBID|Line::644|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::CloseCBTable|Line::116|Arg_0::1376249792|Arg_1::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::CloseCBTableAction|Line::61::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-12 01:41:59-------------------------------------
+Exception_DBERR343::Table currently occupied, reservation failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::InsertCurrentBooking|Line::58|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::61::BackTraceDumpEnd
+----------------------------------------------------------------------------------------

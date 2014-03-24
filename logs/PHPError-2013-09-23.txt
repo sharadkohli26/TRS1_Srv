@@ -1,0 +1,82 @@
+<ErrorEntry>
+	<datetime>2013-09-23 03:53:08 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: dbserverid</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</scriptname>
+	<scriptlinenum>17</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 03:53:09 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: dbuserid</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</scriptname>
+	<scriptlinenum>17</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 03:53:09 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: dbpass</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</scriptname>
+	<scriptlinenum>17</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 03:53:09 (IST)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>mysqli_connect(): (28000/1045): Access denied for user 'ODBC'@'localhost' (using password: NO)</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</scriptname>
+	<scriptlinenum>17</scriptlinenum>
+	<vartrace><wddxPacket version='1.0'><header><comment>Variables</comment></header><data><array length='0'></array></data></wddxPacket></vartrace>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 03:58:37 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: extra_arr</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>923</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 03:58:37 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: extra_array</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>428</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 03:59:08 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: extra_arr</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>923</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 03:59:08 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: extra_array</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>428</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-23 04:02:50 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: extra_array</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>428</scriptlinenum>
+</ErrorEntry>
+

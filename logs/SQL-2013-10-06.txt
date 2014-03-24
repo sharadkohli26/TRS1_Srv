@@ -1,0 +1,58 @@
+
+-----------SQL Error::2013-10-06 17:29:12-------------------------------------
+<Exception>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Exception>
+<SQL_Error>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BYresrooms.RoomName,resrooms_tables.DisplayName' at line 1</SQL_Error>
+	<BackTraceDumpStart>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</File>
+	<Function>ThrowDBException</Function>
+	<Line>326</Line>
+	<Arg_0>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Arg_0>
+	<Arg_1>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BYresrooms.RoomName,resrooms_tables.DisplayName' at line 1</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\ResRoomsTables.Class.php</File>
+	<Function>Select</Function>
+	<Line>639</Line>
+	<Arg_0>SELECT resrooms.HRID AS HRID, resrooms.RoomID AS RoomID, resrooms.RoomName AS RoomName, resrooms.CreatedTime AS CreateTime, resrooms.IsAlive AS RoomStatus, resrooms_tables.TBID AS TBID, resrooms_tables.DisplayName AS TableName, resrooms_tables.MinCapacity AS MinCapacity, resrooms_tables.MaxCapacity AS MaxCapacity, resrooms_tables.Status AS TableStatus, resrooms_tables.OnlineStatus AS OnlineAvailability FROM resrooms LEFT OUTER JOIN resrooms_tables ON resrooms_tables.HRID='MS1' AND resrooms_tables.RoomID=resrooms.RoomID WHERE resrooms.HRID='MS1' AND resrooms.RoomID IN (2, 3, 5) ORDER BYresrooms.RoomName,resrooms_tables.DisplayName</Arg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\ResRoomsTables.Class.php</File>
+	<Function>GetRoomTableDetails</Function>
+	<Line>618</Line>
+	<Arg_0>11110</Arg_0>
+	<ArrArg_1></ArrArg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\ResRoomTables_Controller.Class.php</File>
+	<Function>GetRoomTableDetails_ForRoomStatus</Function>
+	<Line>108</Line>
+	<Arg_0>1</Arg_0>
+	<Arg_1>1</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php</File>
+	<Function>GetRoomTableDetails_ForRoomStatusAction</Function>
+	<Line>81</Line>
+	</BackTraceDumpEnd>
+----------------------------------------------------------------------------------------
+
+-----------SQL Error::2013-10-06 17:29:16-------------------------------------
+<Exception>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Exception>
+<SQL_Error>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BYresrooms.RoomName,resrooms_tables.DisplayName' at line 1</SQL_Error>
+	<BackTraceDumpStart>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php</File>
+	<Function>ThrowDBException</Function>
+	<Line>326</Line>
+	<Arg_0>Exception_DBO_SQLQUERY::Mysqli Query failed!!</Arg_0>
+	<Arg_1>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BYresrooms.RoomName,resrooms_tables.DisplayName' at line 1</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\ResRoomsTables.Class.php</File>
+	<Function>Select</Function>
+	<Line>639</Line>
+	<Arg_0>SELECT resrooms.HRID AS HRID, resrooms.RoomID AS RoomID, resrooms.RoomName AS RoomName, resrooms.CreatedTime AS CreateTime, resrooms.IsAlive AS RoomStatus, resrooms_tables.TBID AS TBID, resrooms_tables.DisplayName AS TableName, resrooms_tables.MinCapacity AS MinCapacity, resrooms_tables.MaxCapacity AS MaxCapacity, resrooms_tables.Status AS TableStatus, resrooms_tables.OnlineStatus AS OnlineAvailability FROM resrooms LEFT OUTER JOIN resrooms_tables ON resrooms_tables.HRID='MS1' AND resrooms_tables.RoomID=resrooms.RoomID WHERE resrooms.HRID='MS1' AND resrooms.RoomID IN (2, 3, 5) ORDER BYresrooms.RoomName,resrooms_tables.DisplayName</Arg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\ResRoomsTables.Class.php</File>
+	<Function>GetRoomTableDetails</Function>
+	<Line>618</Line>
+	<Arg_0>11110</Arg_0>
+	<ArrArg_1></ArrArg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\ResRoomTables_Controller.Class.php</File>
+	<Function>GetRoomTableDetails_ForRoomStatus</Function>
+	<Line>108</Line>
+	<Arg_0>1</Arg_0>
+	<Arg_1>1</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php</File>
+	<Function>GetRoomTableDetails_ForRoomStatusAction</Function>
+	<Line>81</Line>
+	</BackTraceDumpEnd>
+----------------------------------------------------------------------------------------

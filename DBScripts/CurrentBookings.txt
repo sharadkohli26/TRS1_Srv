@@ -1,0 +1,28 @@
+CREATE TABLE `TRS1`.`currentbookings` (
+`HRID` VARCHAR( 200 ) NOT NULL ,
+`CBID` BIGINT NOT NULL ,
+`UserID` VARCHAR( 200 ) NOT NULL ,
+`Status` INT NOT NULL ,
+`StartTime` BIGINT NOT NULL ,
+`EndTime` BIGINT NOT NULL ,
+`GuestNum` INT NOT NULL ,
+`GuestNames` VARCHAR( 200 ) NULL ,
+`GuestContactNos` VARCHAR( 200 ) NULL ,
+`GuestEmail` VARCHAR( 200 ) NULL ,
+`Comment` TEXT NULL ,
+`WaitingID` BIGINT NULL ,
+`AdvanceID` BIGINT NULL ,
+PRIMARY KEY ( `CBID` )
+) ENGINE = InnoDB ;
+
+ALTER TABLE `currentbookings` CHANGE `StartTime` `StartTime` DATETIME NOT NULL ; 
+ALTER TABLE `currentbookings` CHANGE `EndTime` `EndTime` DATETIME NOT NULL ;
+ALTER TABLE `currentbookings` ADD `ExpectedDuration` INT NOT NULL COMMENT 'in minutes' AFTER `EndTime` ;
+
+ALTER TABLE `currentbookings` DROP `GuestNames` ,
+DROP `GuestContactNos` ,
+DROP `GuestEmail` ,
+DROP `Comment` ; 
+
+ALTER TABLE `currentbookings` ADD `GuestUID` INT NULL DEFAULT NULL AFTER `GuestNum` ;
+ALTER TABLE `currentbookings` ADD `Notes` TEXT NULL AFTER `GuestNum` ;

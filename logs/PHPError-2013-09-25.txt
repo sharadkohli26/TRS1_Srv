@@ -1,0 +1,18 @@
+<ErrorEntry>
+	<datetime>2013-09-25 23:12:17 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: staus</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>1040</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-25 23:12:44 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: staus</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>1040</scriptlinenum>
+</ErrorEntry>
+

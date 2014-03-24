@@ -1,0 +1,64 @@
+<errorentry>
+	<datetime>2013-09-22 13:04:46 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: mGuestName</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php</scriptname>
+	<scriptlinenum>58</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-09-22 13:04:46 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: mGuestContact</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php</scriptname>
+	<scriptlinenum>58</scriptlinenum>
+</errorentry>
+
+<errorentry>
+	<datetime>2013-09-22 13:04:46 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: mGuestEmail</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php</scriptname>
+	<scriptlinenum>58</scriptlinenum>
+</errorentry>
+
+<ErrorEntry>
+	<datetime>2013-09-22 18:35:36 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined property: CurrentBookingEntry::$AdvID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>636</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-22 18:36:36 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined property: CurrentBookingEntry::$AdvID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>638</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-22 18:38:02 (IST)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>Missing argument 2 for CurrentBookingEntry::GetAllDetails_ForCBID(), called in S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php on line 234 and defined</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>185</scriptlinenum>
+	<vartrace><wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='mCBID'><string>1379855229</string></var></struct></data></wddxPacket></vartrace>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-22 18:38:02 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: CheckCBID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>187</scriptlinenum>
+</ErrorEntry>
+

@@ -1,0 +1,27 @@
+<ErrorEntry>
+	<datetime>2013-10-07 22:42:57 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Array to string conversion</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\MyErrorHandeler.Class.php</scriptname>
+	<scriptlinenum>47</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-10-07 22:43:01 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Array to string conversion</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\MyErrorHandeler.Class.php</scriptname>
+	<scriptlinenum>47</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-10-07 22:45:14 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Array to string conversion</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\MyErrorHandeler.Class.php</scriptname>
+	<scriptlinenum>47</scriptlinenum>
+</ErrorEntry>
+

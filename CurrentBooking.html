@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border="1">
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="CloseAllCurrent">
+			<input type="submit" value="CloseAllCurrent"> 
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="GetCurrent_LiveBookings">
+			<input type="submit" value="GetCurrent_LiveBookings"> 
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="GetCurrent_ClosedBookings">
+			<input type="submit" value="GetCurrent_ClosedBookings"> 
+			</form> 
+		</td>
+	
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="GetCurrentAvailableTables">
+			<input type="submit" value="GetCurrentAvailableTables"> 
+			</form> 
+		</td>				
+	</tr>
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			startdate*: <input type="text" name="startdate" value="2013-09-03"><br>
+			enddate*: <input type="text" name="enddate" value="2013-09-006"><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="GetCurrent_AllBookings">
+			<input type="submit" value="GetCurrent_AllBookings"> 
+			</form> 
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			CBID*: <input type="text" name="CBID"><br>
+			<br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="GetDetails_ForCBID">
+			<input type="submit" value="GetDetails_ForCBID"> 
+			</form> 
+		</td>
+				
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			CBID*: <input type="text" name="CBID"><br>
+			<br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="CloseCurrentBooking">
+			<input type="submit" value="CloseCurrentBooking"> 
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			CBID*: <input type="text" name="CBID"><br>
+			RoomName*:<input type="text" name="RoomName" value="Room1"><br>
+			TBIDs*:<input type="text" name="TBIDs" value="Table1,Table2"><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="AddCBTable">
+			<input type="submit" value="AddCBTable"> 
+			</form> 
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			ExpectedDuration*:  <input type="text" name="ExpD" value="30"><br>
+			Number of Guests*:  <input type="text" name="GuestNum" value="5"><br>
+			RoomName*:<input type="text" name="RoomName" value="Room1"><br>
+			TBIDs*:<input type="text" name="TBIDs" value="Table1,Table2"><br>
+			GuestName:  <input type="text" name="GuestName" value=""><br>
+			GuestContact:  <input type="text" name="GuestContact" value=""><br>
+			GuestEmail:<input type="text" name="GuestEmail" value=""><br>
+			<!-- <input type="text" name="GuestComment" value=""><br>-->
+			GuestComment:<textarea class="FormElement" name="GuestComment" id="comment" cols="10" rows="2">Enter Comment</textarea><br>
+			ReservationNotes::<textarea class="FormElement" name="Notes" id="notes" cols="10" rows="2">Enter Reservation Note</textarea><br>  
+			WaitID:  <input type="text" name="WaitID" value=""><br>
+			AdvanceID:  <input type="text" name="AdvID" value=""><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="NewCurrentBooking"> 
+			<input type="submit" value="Submit">
+			</form> 	
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			CBID*: <input type="text" name="CBID"><br>
+			RoomName*:<input type="text" name="RoomName" value="Room1"><br>
+			TBIDs*:<input type="text" name="TBIDs" value="Table1,Table2"><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="CloseCBTable">
+			<input type="submit" value="CloseCBTable"> 
+			</form> 
+		</td>		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			CBID*: <input type="text" name="CBID"><br>
+			Remove_RoomName*:<input type="text" name="RemoveTBID_RoomName" value="Room1"><br>
+			RemoveTBIDs*:  <input type="text" name="RemoveTBID"  placeholder="Leave blank if you dont want to remove the table"><br>
+			Add_RoomName*:<input type="text" name="AddTBID_RoomName" value="Room1"><br>
+			AddTBIDs*:  <input type="text" name="AddTBID"  placeholder="Leave blank if you dont want to add any table"><br>
+			ExpectedDuration*:<input type="text" name="ExpD" value="30"><br>
+			Number of Guests*:  <input type="text" name="GuestNum" value="5"><br>
+			Notes:<textarea class="FormElement" name="Notes" id="comment" cols="10" rows="2"></textarea><br>
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="UpdateCurrentReservation">
+			<input type="submit" value="Update CurrentReservationEntry"> 
+			</form> 
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			GID:  <input type="text" name="GID" value=""><br>
+			Start: <input type="text" name="Start" value="" placeholder="optional, can you handle this on client side?"><br>
+			End: <input type="text" name="End" value="" placeholder="optional, can you handle this on client side?"><br>
+			<input type="radio" name="Type" value="WalkIn">WalkIn<br>
+			<input type="radio" name="Type" value="Advance">Advance<br>
+			
+			<input type="hidden" name="controller" value="CurrentBooking">
+			<input type="hidden" name="action" value="GetBookingsHistory_ForGUID">
+			<input type="submit" value="GetBookingsHistory_ForGUID"> 
+			</form> 
+		</td>
+		
+	</tr>
+</table> 
+
+<br>
+
+
+</body>
+</html>

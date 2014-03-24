@@ -1,0 +1,9 @@
+CREATE TABLE `trs1`.`guests` (
+`UID` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`HRID` VARCHAR( 200 ) NOT NULL ,
+`PrimaryContactNumber` BIGINT NULL ,
+`AlternateContactNumber` VARCHAR( 400 ) NULL ,
+`Name` VARCHAR( 200 ) NULL ,
+`Email` VARCHAR( 200 ) NULL ,
+`Comment` VARCHAR( 600 ) NULL
+) ENGINE = InnoDB;

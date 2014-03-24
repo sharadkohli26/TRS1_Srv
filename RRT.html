@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border="1">
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			RoomName*:  <input type="text" name="RoomName" value="Room1"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="CreateNewRoom"> 
+			<input type="submit" value="CreateNewRoom">
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			OldRoomName*:  <input type="text" name="OldRoomName" value="Room1"><br>
+			NewRoomName*:  <input type="text" name="NewRoomName" value="Room2"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="ChangeRoomName"> 
+			<input type="submit" value="ChangeRoomName">
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			RoomName*:  <input type="text" name="RoomName" value="Room1"><br>
+			CurrentStatus*:  <input type="text" name="CurrentStatus" placeholder="1 or 0"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="ActivateDeactivateRoom">
+			<input type="submit" value="ActivateDeactivateRoom"> 
+			</form> 
+		</td>
+
+		<td>		
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			CurrentStatus*:  <input type="text" name="CurrentStatus" value="Room1"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="GetRoomDetails_ForStatus">
+			<input type="submit" value="GetRoomDetails_ForStatus"> 
+			</form> 
+		</td>				
+	</tr>
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			RoomName*:  <input type="text" name="RoomName" value="Room1,Room2"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="GetRoomDetails_ForRoomNames">
+			<input type="submit" value="GetRoomDetails_ForRoomNames"> 
+			</form>
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			RoomName*:  <input type="text" name="RoomName" value="Room1"><br>
+			TableName*:  <input type="text" name="TableName" value="Table1"><br>
+			MinCapacity:  <input type="text" name="MinCapacity" value="1"><br>
+			MaxCapacity:  <input type="text" name="MaxCapacity" value="2"><br>
+			OnlineAvailability:<br>
+			<input type="radio" name="OnlineAvailability" value="Yes">Yes &nbsp;&nbsp;
+			<input type="radio" name="OnlineAvailability" value="No">No<br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="AddNewTable">
+			<input type="submit" value="AddNewTable"> 
+			</form>
+		</td>
+				
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			RoomName*:  <input type="text" name="RoomName" value="Room1"><br>
+			OldTableName*:  <input type="text" name="OldTableName" value="Table1"><br>
+			NewTableName*:  <input type="text" name="NewTableName" value="NewTable1"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="ChangeTableName">
+			<input type="submit" value="ChangeTableName"> 
+			</form>			
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			RoomName*:  <input type="text" name="RoomName" value="Room1"><br>
+			TableName*:  <input type="text" name="TableName" value="Table1"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="GetTableDetails_ForTableNames">
+			<input type="submit" value="GetTableDetails_ForTableNames"> 
+			</form>			
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			RoomNames*:  <input type="text" name="RoomName" placeholder="CSV of RoomNames"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="GetRoomTableDetails_ForRoomNames">
+			<input type="submit" value="GetRoomTableDetails_ForRoomNames"> 
+			</form>					
+		</td>
+		
+		<td>	
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			CurrentStatus*:  <input type="text" name="CurrentStatus" placeholder="1 or 0"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="GetRoomTableDetails_ForRoomStatus">
+			<input type="submit" value="GetRoomTableDetails_ForRoomStatus"> 
+			</form>			
+		</td>		
+		<td>	
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="ResRoomTables">
+			<input type="hidden" name="action" value="GetRoomTableDetails_ForActiveRoomsActiveTable">
+			<input type="submit" value="GetRoomTableDetails_ForActiveRoomsActiveTable"> 
+			</form>			
+		</td>		
+		
+	</tr>
+</table> 
+
+<br>
+
+
+</body>
+</html>

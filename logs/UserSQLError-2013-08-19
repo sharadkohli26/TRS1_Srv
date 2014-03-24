@@ -1,0 +1,16 @@
+
+-----------User Error::2013-08-19 22:02:17-------------------------------------
+Exception_InvalidTableID::Supplied TBID(s) not available in the list, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::SetTBID|Line::45|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::68::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-19 22:02:18-------------------------------------
+Exception_InvalidTableID::Supplied TBID(s) not available in the list, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::SetTBID|Line::45|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::68::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-19 22:02:18-------------------------------------
+Exception_InvalidTableID::Supplied TBID(s) not available in the list, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::SetTBID|Line::45|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::68::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-19 22:02:46-------------------------------------
+Exception_InvalidTableID::Supplied TBID(s) not available in the list, action failed|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::SetTBID|Line::45|Arg_0::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::68::BackTraceDumpEnd
+----------------------------------------------------------------------------------------

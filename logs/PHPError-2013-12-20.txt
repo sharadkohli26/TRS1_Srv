@@ -1,0 +1,19 @@
+<ErrorEntry>
+	<datetime>2013-12-20 22:07:27 (IST)</datetime>
+	<errornum>2</errornum>
+	<errortype>Warning</errortype>
+	<errormsg>Missing argument 2 for CurrentBookingEntry::GetAllDetails_ForCBID(), called in S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php on line 234 and defined</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>189</scriptlinenum>
+	<vartrace><wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='mCBID'><string>1379874837</string></var></struct></data></wddxPacket></vartrace>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-12-20 22:07:27 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined variable: CheckCBID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php</scriptname>
+	<scriptlinenum>191</scriptlinenum>
+</ErrorEntry>
+

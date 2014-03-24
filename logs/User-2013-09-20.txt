@@ -1,0 +1,4 @@
+
+-----------User Error::2013-09-20 04:13:48-------------------------------------
+Exception_DBO_INSERTNUMCOLVAL::Number of column names and values to insert dont match|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php|Function::ThrowUserException|Line::102|Arg_0::Exception_DBO_INSERTNUMCOLVAL::Number of column names and values to insert dont match|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\WaitingListEntry.Class.php|Function::Insert|Line::106|Arg_0::waitinglist|Arg_1::Array|Arg_2::Array|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\WaitingList_Controller.Class.php|Function::AddToWaitingList|Line::52|Arg_0::|Arg_1::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::AddTOWaitingListAction|Line::80::BackTraceDumpEnd
+----------------------------------------------------------------------------------------

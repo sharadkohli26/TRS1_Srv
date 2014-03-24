@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border="1">
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			GuestName:  <input type="text" name="GuestName" value=""><br>
+			GuestContact:  <input type="text" name="GuestContact" value=""><br>
+			GuestAlternateContact:  <input type="text" name="AlternateContact" value=""><br>
+			GuestEmail:<input type="text" name="GuestEmail" value=""><br>
+			GuestComment:<textarea class="FormElement" name="GuestComment" id="comment" cols="10" rows="2">Enter Comment</textarea><br>  
+			<input type="hidden" name="controller" value="Guests">
+			<input type="hidden" name="action" value="NewGuest">
+			<input type="submit" value="NewGuestEntry"> 
+			</form> 
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			GuestContact:  <input type="text" name="GuestContact" value=""><br>
+			<br>
+			<input type="hidden" name="controller" value="Guests">
+			<input type="hidden" name="action" value="GetGuestDetails_ForContact">
+			<input type="submit" value="GetDetails_ForContact"> 
+			</form> 
+		</td>
+				
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			GID:  <input type="text" name="GID" value=""><br>
+			<br>
+			<input type="hidden" name="controller" value="Guests">
+			<input type="hidden" name="action" value="GetGuestDetails_ForGUID">
+			<input type="submit" value="GetDetails_ForGID"> 
+			</form> 
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			GuestName*:  <input type="text" name="GuestName" value=""><br>
+			<br>
+			<input type="hidden" name="controller" value="Guests">
+			<input type="hidden" name="action" value="GetGuestDetails_ForName">
+			<input type="submit" value="GetDetails_ForName"> 
+			</form> 
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			GID:  <input type="text" name="GID" value=""><br>
+			<br>
+			<input type="hidden" name="controller" value="Guests">
+			<input type="hidden" name="action" value="GetGuestStats_ForGUID">
+			<input type="submit" value="GetGuestStats_ForGUID"> 
+			</form> 
+		</td>
+		
+		
+	</tr>
+</table> 
+
+<br>
+
+
+</body>
+</html>

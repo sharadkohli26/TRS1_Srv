@@ -1,0 +1,84 @@
+
+-----------User Error::2013-10-08 01:36:06-------------------------------------
+<Exception>The supplied table-id doesnt exist.</Exception>
+	<BackTraceDumpStart>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>GetRoomTableDetails_ForTBID</Function>
+	<Line>636</Line>
+	<ArrArg_0></ArrArg_0>
+	<Arg_1>1</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>GetTableDetails_FromTBID</Function>
+	<Line>395</Line>
+	<ArrArg_0></ArrArg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Get_AdvanceBookings_BetweenDate</Function>
+	<Line>234</Line>
+	<Arg_0>2013-10-08</Arg_0>
+	<Arg_1>2013-10-08</Arg_1>
+	<Arg_2>2010</Arg_2>
+	<ArrArg_3>1381176365</ArrArg_3>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>GetAllDetails_ForABID</Function>
+	<Line>90</Line>
+	<Arg_0>1381176365</Arg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\AdvanceBooking_Controller.Class.php</File>
+	<Function>NewAdvanceBookingByHRUser</Function>
+	<Line>37</Line>
+	<Arg_0>2013-10-15 18:30</Arg_0>
+	<Arg_1>Call</Arg_1>
+	<Arg_2>Approved</Arg_2>
+	<Arg_3>30</Arg_3>
+	<Arg_4>5</Arg_4>
+	<Arg_5></Arg_5>
+	<Arg_6>Sharad Kohli</Arg_6>
+	<Arg_7>8899667744</Arg_7>
+	<Arg_8></Arg_8>
+	<Arg_9></Arg_9>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php</File>
+	<Function>NewAdvanceBookingAction</Function>
+	<Line>81</Line>
+	</BackTraceDumpEnd>
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-10-08 01:36:13-------------------------------------
+<Exception>The supplied table-id doesnt exist.</Exception>
+	<BackTraceDumpStart>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>GetRoomTableDetails_ForTBID</Function>
+	<Line>636</Line>
+	<ArrArg_0></ArrArg_0>
+	<Arg_1>1</Arg_1>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>GetTableDetails_FromTBID</Function>
+	<Line>395</Line>
+	<ArrArg_0></ArrArg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>Get_AdvanceBookings_BetweenDate</Function>
+	<Line>234</Line>
+	<Arg_0>2013-10-08</Arg_0>
+	<Arg_1>2013-10-08</Arg_1>
+	<Arg_2>2010</Arg_2>
+	<ArrArg_3>1381176373</ArrArg_3>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\AdvanceBookingEntry.Class.php</File>
+	<Function>GetAllDetails_ForABID</Function>
+	<Line>90</Line>
+	<Arg_0>1381176373</Arg_0>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\AdvanceBooking_Controller.Class.php</File>
+	<Function>NewAdvanceBookingByHRUser</Function>
+	<Line>37</Line>
+	<Arg_0>2013-10-15 18:30</Arg_0>
+	<Arg_1>Call</Arg_1>
+	<Arg_2>Approved</Arg_2>
+	<Arg_3>30</Arg_3>
+	<Arg_4>5</Arg_4>
+	<Arg_5></Arg_5>
+	<Arg_6>Sharad Kohli</Arg_6>
+	<Arg_7>8899667744</Arg_7>
+	<Arg_8></Arg_8>
+	<Arg_9></Arg_9>
+	<File>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php</File>
+	<Function>NewAdvanceBookingAction</Function>
+	<Line>81</Line>
+	</BackTraceDumpEnd>
+----------------------------------------------------------------------------------------

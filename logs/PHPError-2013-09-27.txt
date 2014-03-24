@@ -1,0 +1,36 @@
+<ErrorEntry>
+	<datetime>2013-09-27 20:22:09 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: WaitID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\WaitingList_Controller.Class.php</scriptname>
+	<scriptlinenum>66</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-27 21:10:40 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: WaitID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\WaitingList_Controller.Class.php</scriptname>
+	<scriptlinenum>66</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-27 21:13:47 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: WaitID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\WaitingList_Controller.Class.php</scriptname>
+	<scriptlinenum>66</scriptlinenum>
+</ErrorEntry>
+
+<ErrorEntry>
+	<datetime>2013-09-27 21:15:10 (IST)</datetime>
+	<errornum>8</errornum>
+	<errortype>Notice</errortype>
+	<errormsg>Undefined index: WaitID</errormsg>
+	<scriptname>S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\WaitingList_Controller.Class.php</scriptname>
+	<scriptlinenum>66</scriptlinenum>
+</ErrorEntry>
+

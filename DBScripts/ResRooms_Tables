@@ -1,0 +1,10 @@
+CREATE TABLE `trs1`.`resrooms_tables` (
+`HRID` VARCHAR( 400 ) NOT NULL ,
+`RoomID` INT NOT NULL ,
+`TBID` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`DisplayName` VARCHAR( 400 ) NOT NULL ,
+`MinCapacity` INT NOT NULL ,
+`MaxCapacity` INT NOT NULL ,
+`Status` INT NOT NULL ,
+`OnlineStatus` INT NOT NULL
+) ENGINE = InnoDB;

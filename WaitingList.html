@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table border="1">
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="CloseAllWaitingList">
+			<input type="submit" value="CloseAllWaitingList"> 
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="GetWL_Live">
+			<input type="submit" value="GetWaitingList_Live"> 
+			</form> 
+		</td>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="GetWL_Closed">
+			<input type="submit" value="GetWaitingList_Closed"> 
+			</form> 
+		</td>
+	
+		<td>
+		</td>				
+	</tr>
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			startdate*: <input type="text" name="startdate" value="2013-09-03"><br>
+			enddate*: <input type="text" name="enddate" value="2013-09-006"><br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="GetWL_All">
+			<input type="submit" value="GetWaitingList_All"> 
+			</form> 
+		</td>
+		
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			WaitID*: <input type="text" name="WaitID"><br>
+			<br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="GetDetails_ForWaitID">
+			<input type="submit" value="GetDetails_ForWaitID"> 
+			</form> 
+		</td>
+				
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			WaitID*: <input type="text" name="WaitID"><br>
+			<br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="CloseWaitingList">
+			<input type="submit" value="CloseWaitingList"> 
+			</form> 
+		</td>
+		<td>
+		</td>	
+	</tr>
+	
+	<tr>
+		<td>
+			<form name="input" action="./test.php" method="post">
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*: <input type="text" name="UserID" value="SK"><br>
+			ExpectedDuration*:  <input type="text" name="ExpD" value="30"><br>
+			Number of Guests*:  <input type="text" name="GuestNum" value="5"><br>
+			GuestName:  <input type="text" name="GuestName" value=""><br>
+			GuestContact:  <input type="text" name="GuestContact" value=""><br>
+			GuestEmail:<input type="text" name="GuestEmail" value=""><br>
+			<!-- <input type="text" name="GuestComment" value=""><br>-->
+			GuestComment:<textarea class="FormElement" name="GuestComment" id="comment" cols="10" rows="2">Enter Comment</textarea><br>
+			Notes:<textarea class="FormElement" name="Notes" id="notes2" cols="10" rows="2">EnterNotes</textarea><br>  
+			AdvanceID:  <input type="text" name="AdvID" value=""><br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="AddTOWaitingList"> 
+			<input type="submit" value="Submit">
+			</form> 	
+		</td>
+		<td>			
+			<form name="input" action="./test.php" method="post">
+			<b>To update a WaitList Entry<br></b>
+			HRID*: <input type="text" name="HRID" value="MS1"><br>
+			UserID*:<input type="text" name="UserID" value="SK"><br>
+			WaitID*: <input type="text" name="WaitID"><br>
+			ExpectedDuration*:<input type="text" name="ExpD" value="30"><br>
+			Number of Guests*:  <input type="text" name="GuestNum" value="5"><br>
+			Notes:<textarea class="FormElement" name="Notes" id="notes1" cols="10" rows="2">EnterNotes</textarea><br>
+			<input type="hidden" name="controller" value="WaitingList">
+			<input type="hidden" name="action" value="UpdateWaitingListEntry">
+			<input type="submit" value="Update WaitListEntry"> 
+			</form> 
+		</td>		
+		
+		
+	</tr>
+</table> 
+
+<br>
+
+
+</body>
+</html>

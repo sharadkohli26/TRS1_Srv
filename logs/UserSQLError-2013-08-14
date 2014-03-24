@@ -1,0 +1,12 @@
+
+-----------SQL Error::2013-08-14 00:25:24-------------------------------------
+Exception_DBERR153::Unable to get current table list, reservation failed|SQL_Error::|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::CurrentTableAvailability|Line::500|Arg_0::Array|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::InsertCurrentBooking|Line::58|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::76::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------SQL Error::2013-08-14 00:26:49-------------------------------------
+Exception_DBERR153::Unable to get current table list, reservation failed|SQL_Error::|ExtraInfo_HRID::MS1|ExtraInfo_UserID::SK|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::CurrentTableAvailability|Line::500|Arg_0::Array|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::InsertCurrentBooking|Line::58|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::76::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
+
+-----------User Error::2013-08-14 00:31:27-------------------------------------
+Exception_DBO_INSERTNUMCOLVAL::Number of column names and values to insert dont match|BackTraceDumpStart::|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\Inc\DBOperations.Class.php|Function::ThrowUserException|Line::99|Arg_0::Exception_DBO_INSERTNUMCOLVAL::Number of column names and values to insert dont match|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\model\CurrentBookingEntry.Class.php|Function::Insert|Line::531|Arg_0::currentbookings|Arg_1::Array|Arg_2::Array|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\controller\CurrentBooking_Controller.Class.php|Function::InsertCurrentBooking|Line::58|File::S:\xampp\htdocs\PHPEclipseWorkspace\TRS1\test.php|Function::NewCurrentBookingAction|Line::76::BackTraceDumpEnd
+----------------------------------------------------------------------------------------
